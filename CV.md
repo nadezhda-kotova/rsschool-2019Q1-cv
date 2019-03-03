@@ -16,6 +16,7 @@ Engineer/designer
 Design water supply and sewage plants and systems, development of wastewater treatment technology
 
 Rolling Scopes Courses  
+Flow 2018-Q1 
 
 ### Skills
 
