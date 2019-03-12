@@ -1,15 +1,28 @@
 body{
     width: 1024px;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
+    display: flex;
 }
 
 h1{
     display: flex;
     justify-content: center;
-    font-size: 40px;
+    font-size: 38px;
     font-weight: 700;
+}
+
+h3{
+    font-size: 24px;
+}
+
+h2{
+    font-size: 22px;
+}
+
+li, p{
+    font-size: 18px;
 }
 
 .name{
@@ -25,7 +38,7 @@ h1{
     background-color: #373d48;
     width: 340px;
     color: #ffffff;
-    float: left;
+    display: inline-block;
 }
  img{
     width: 300px;
@@ -34,10 +47,13 @@ h1{
  }
 
 
-.personal-info{
-    background-color: #252932;
-    height: 50px;
 
+.personal-info{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 300px;
 }
 
 .contact-info{
@@ -48,11 +64,13 @@ h1{
 
 .h-2{
     width: 340px;
+    height: 50px;
+    background-color: #252932;
 }
 
 .contact-info span{
     font-weight: 700;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 ul{
@@ -60,8 +78,73 @@ ul{
     margin: 0;
 }
 
-.phone, .e-mail, .date-of-birth, .skills{
+.phone, .e-mail, .date-of-birth{
     width: 300px;
     margin: 0 auto;
     height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.skills, .languages {
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.skills li{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    width: 270px;
+    margin: 0 auto;
+}
+
+.languages p{
+    margin-top: 0;
+}
+
+.main{
+    width: 680px;
+
+}
+
+.summary{
+    text-align: justify;
+    display: flex;
+    height: 135px;
+}
+
+.summary span{
+    width: 640px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+.experience-education{
+    display: flex;
+    flex-direction: column;
+}
+
+.experience, .education{
+    width: 640px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.experience h2, .education h2{
+    border-bottom: 1px solid #cccccc;
+    border-top: 1px solid #cccccc;
+    height: 40px;
+}
+
+h4{
+    font-size: 18px;
+    font-weight: 700;
 }
